@@ -1,11 +1,15 @@
 import React from  'react'
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";
 
-function Main() {
+  function Main() {
     return(
-        <div>
-            <p>this is main</p>
-        </div>
+        <Router>
+            <p>This is a link <Link to="/docs/getting-started">link</Link></p>
+        </Router>
     )
-}
+  }
 
-export default Main
+  export default Main
