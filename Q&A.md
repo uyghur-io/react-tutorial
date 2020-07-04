@@ -31,3 +31,5 @@ import {
   }
   export default Main
   ```
+
+  因为上一个步骤删掉了`yarn.lock` 现在需要重新安装以下  不然无法git到master分支 ，运行：`yarn install`
