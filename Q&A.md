@@ -15,17 +15,18 @@ http://www.hackingwithreact.com/read/1/23/creating-a-link-between-pages-in-react
 https://reactrouter.com/web/guides/quick-start
 `npm install --save react-router-dom`
 使用方法
->import React from  'react'
->import {
->    BrowserRouter as Router,
->    Link
->  } from "react-router-dom";
->
->  function Main() {
->    return(
->        <Router>
->            <p>This is a link <Link to="/docs/getting-started">link</Link></p>
->        </Router>
->    )
->  }
->  export default Main
+
+import React from  'react'
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";
+
+  function Main() {
+    return(
+        <Router>
+            <p>This is a link <Link to="/docs/getting-started">link</Link></p>
+        </Router>
+    )
+  }
+  export default Main
