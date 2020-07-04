@@ -15,7 +15,7 @@ http://www.hackingwithreact.com/read/1/23/creating-a-link-between-pages-in-react
 https://reactrouter.com/web/guides/quick-start
 `npm install --save react-router-dom`
 使用方法 
-```javascript
+```js
 import React from  'react'
 import {
     BrowserRouter as Router,
