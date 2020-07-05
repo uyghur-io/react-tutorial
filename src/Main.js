@@ -7,7 +7,7 @@ import {
   function Main() {
     return(
         <Router>
-            <p>This is a link <Link to="/docs/getting-started">link</Link></p>
+            <p>This is a link <Link to="docs/getting-started">link</Link></p>
         </Router>
     )
   }

@@ -32,4 +32,13 @@ import {
   export default Main
   ```
 
-  因为上一个步骤删掉了`yarn.lock` 现在需要重新安装以下  不然无法git到master分支 ，运行：`yarn install`
+  因为上一个步骤删掉了`yarn.lock` 现在需要重新安装以下  不然无法git到master分支 ，运行：`yarn install`  **成功**
+
+  ### https://www.sitepoint.com/react-router-complete-guide/ 路由详细教程
+  1.简单路由 用 <Link> 组件写路径，当点击后路径符合了就显示，路由组件 <Route />, 路径属性 path='/' , 调用属性 component，开头需要从"react-router-dom" 中引入 Route 和 Link 组件
+  ```js
+  import {Route, Link} from 'react-router-dom'
+
+  <Link to='/Home'>Home</Link>
+  <Route path='/Home' component={Home}/>
+  ```
