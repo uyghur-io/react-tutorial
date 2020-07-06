@@ -1,10 +1,16 @@
-@font-face {
-    font-family: UKIJ Tuz;
-    font-style: normal;
-    font-weight: normal;
-    src: local('UKIJ Tuz'), local('UKIJ Tuz'), url('http://cdn.trt.net.tr/public/fonts/UKIJTuzG.ttf') format('truetype');
-    }
 
-    p,header,ul,article,aside,div.ad,div.main-footer {
-        font-family: "UKIJ Tuz","Uyghuredit lotus","UKIJ Nasq","UKIJ Tuz Tom","UKIJ Basma","Microsoft Uighur","Arial Unicode MS"!important;
+  @font-face {
+    font-family: 'UKIJ Nasq';
+    src: url('./components/fonts/UKIJNasq.eot');
+    src: url('./components/fonts/UKIJNasq.eot?#iefix') format('embedded-opentype'),
+        url('./components/fonts/UKIJNsq.ttf') format('truetype'),
+        url('./components/fonts/UKIJNasq.woff') format('woff'),
+        url('./components/fonts/UKIJNasq.woff2') format('woff2'),
+        url('./components/fonts/UKIJNasq.svg#UKIJNasq') format('svg');
+    font-weight: normal;
+    font-display: swap;
   }
+
+  p,header,ul,article,aside,div.ad,div.main-footer {
+    font-family: "UKIJ Nasq","UKIJ Tuz","Uyghuredit lotus","UKIJ Tuz Tom","UKIJ Basma","Microsoft Uighur","Arial Unicode MS"!important;
+}
