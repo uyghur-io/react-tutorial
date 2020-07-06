@@ -1,19 +1,25 @@
-import React from 'react';
-import Header from './Header.js';
-import Nav from './Nav.js';
-import Main from './Main.js';
-import Footer from './Footer.js';
-import './App.css';
+import React from 'react'
+import MainHead from './components/MainHead.js'
+import MainNav from './components/MainNav.js'
+import Content from './components/Content.js'
+import Sidebar from './components/Sidebar.js'
+import Ad from './components/Ad.js'
+import Footer from './components/Footer.js'
+import './App.css'
+
+import './UyghurLanguage.css'
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <Nav />
-      <Main />
-      <Footer />
-    </div>
-  );
+    return(
+        <div className='react-tutorial-app'>
+            <MainHead />
+            <MainNav />
+            <Content />
+            <Sidebar />
+            <Ad />
+            <Footer />
+        </div>
+    )
 }
 
-export default App;
+export default App

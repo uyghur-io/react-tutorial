@@ -32,4 +32,23 @@ import {
   export default Main
   ```
 
-  因为上一个步骤删掉了`yarn.lock` 现在需要重新安装以下  不然无法git到master分支 ，运行：`yarn install`
+  因为上一个步骤删掉了`yarn.lock` 现在需要重新安装以下  不然无法git到master分支 ，运行：`yarn install`  **成功**
+
+  ### https://www.sitepoint.com/react-router-complete-guide/ 路由详细教程
+  1.简单路由 用 <Link> 组件写路径，当点击后路径符合了就显示，路由组件 <Route />, 路径属性 path='/' , 调用属性 component，开头需要从"react-router-dom" 中引入 Route 和 Link 组件
+  ```js
+  import {Route, Link} from 'react-router-dom'
+
+  <Link to='/Home'>Home</Link>
+  <Route path='/Home' component={Home}/>
+  ```
+
+### 重构网站 
+![image](https://user-images.githubusercontent.com/67357374/86530900-79d41b80-bec5-11ea-9262-666fc453148d.png)
+![image](https://user-images.githubusercontent.com/67357374/86530923-aab45080-bec5-11ea-8a8e-4d0a44106432.png)
+
+### 安装 Material-UI —— 世界上最受欢迎的 React UI 框架。
+`npm install @material-ui/core`
+
+### css 布局用 grid 12分割网布局
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Grid_Layout/%E5%88%A9%E7%94%A8CSS%E7%BD%91%E6%A0%BC%E5%B8%83%E5%B1%80%E5%AE%9E%E7%8E%B0%E5%B8%B8%E7%94%A8%E5%B8%83%E5%B1%80
