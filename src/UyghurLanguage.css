@@ -1,0 +1,10 @@
+@font-face {
+    font-family: UKIJ Tuz;
+    font-style: normal;
+    font-weight: normal;
+    src: local('UKIJ Tuz'), local('UKIJ Tuz'), url('http://cdn.trt.net.tr/public/fonts/UKIJTuzG.ttf') format('truetype');
+    }
+
+    p,header,ul,article,aside,div.ad,div.main-footer {
+        font-family: "UKIJ Tuz","Uyghuredit lotus","UKIJ Nasq","UKIJ Tuz Tom","UKIJ Basma","Microsoft Uighur","Arial Unicode MS"!important;
+  }
