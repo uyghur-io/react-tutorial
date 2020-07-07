@@ -1,5 +1,5 @@
 
-  @font-face {
+@font-face {
     font-family: 'UKIJ Nasq';
     src: url('./components/fonts/UKIJNasq.eot');
     src: url('./components/fonts/UKIJNasq.eot?#iefix') format('embedded-opentype'),
@@ -11,6 +11,22 @@
     font-display: swap;
   }
 
-  p,header,ul,article,aside,div.ad,div.main-footer {
+  @font-face {
+    font-family: "UKIJ Tuz Tom";
+    src: url("./components/fonts/UKIJTuT.eot"); /* IE9 Compat Modes */
+    src: url("./components/fonts/UKIJTuT.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+        url("./components/fonts/UKIJTuT.svg#UKIJTuT") format("svg"), /* Legacy iOS */
+        url("./components/fonts/UKIJTuT.ttf") format("truetype"), /* Safari, Android, iOS */
+        url("./components/fonts/UKIJTuT.woff") format("woff"), /* Modern Browsers */
+        url("./components/fonts/UKIJTuT.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-display: swap;
+  }
+
+  p,header,ul,article,aside,div.ad {
     font-family: "UKIJ Nasq","UKIJ Tuz","Uyghuredit lotus","UKIJ Tuz Tom","UKIJ Basma","Microsoft Uighur","Arial Unicode MS"!important;
+}
+
+div.main-footer {
+  font-family: "UKIJ Tuz Tom";
 }

@@ -52,3 +52,9 @@ import {
 
 ### css 布局用 grid 12分割网布局
 https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Grid_Layout/%E5%88%A9%E7%94%A8CSS%E7%BD%91%E6%A0%BC%E5%B8%83%E5%B1%80%E5%AE%9E%E7%8E%B0%E5%B8%B8%E7%94%A8%E5%B8%83%E5%B1%80
+
+### 添加fonts
+
+### 添加路由
+
+### 实现多国语言 https://formatjs.io/docs/react-intl/api/
